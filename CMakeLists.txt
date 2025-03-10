@@ -20,8 +20,3 @@ install(TARGETS ${PROJECT_NAME}
     RUNTIME DESTINATION bin
     COMPONENT runtime
 )
-
-install(FILES src/include/example.h
-    DESTINATION include
-    COMPONENT headers
-)
